@@ -29,31 +29,16 @@ function SectionButtons() {
                                 together for the greater good of both communities</Typography>
                             <Grid container spacing={2}>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Dextools Link</Button>
+                                    <Button variant={'outlined'}>Uniswap</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Medium Article</Button>
+                                    <Button variant={'outlined'}>Etherscan</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Uniswap Link</Button>
+                                    <Button variant={'outlined'}>Dextool</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Liquidity Lock</Button>
-                                </Grid>
-                                <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Telegram Chat</Button>
-                                </Grid>
-                                <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>CERTIK Audit</Button>
-                                </Grid>
-                                <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Twitter</Button>
-                                </Grid>
-                                <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Buy on Hotbit</Button>
-                                </Grid>
-                                <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Whitepaper</Button>
+                                    <Button variant={'outlined'}>Cmc</Button>
                                 </Grid>
                             </Grid>
                         </Stack>

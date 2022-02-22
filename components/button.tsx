@@ -8,7 +8,7 @@ type ButtonProps = {
 const Button = styled(MuiButton)<ButtonProps>`
   background-color: ${props => props.backColor ? props.backColor : 'transparent'};
   text-decoration: none;
-  //padding: 10px 60px;
+  padding: 10px 60px;
   color: black;
   width: 100%;
   border-radius: 100px;

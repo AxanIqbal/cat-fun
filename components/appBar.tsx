@@ -7,7 +7,7 @@ const Heading = styled(Typography)`
   flex-grow: 1;
 `
 const CustomAppBar = styled(MuiAppBar)`
-  background-color: rgba(161, 82, 0, 0.83);
+  background-color: rgb(184, 97, 7);
   min-height: 5rem;
   display: flex;
   margin: auto;
@@ -34,7 +34,11 @@ function ElevationScroll(props: Props) {
         target: window ? window() : undefined,
     });
 
-    return <Slide appear={false} direction="down" in={!trigger}>
+    const trigger1 = useScrollTrigger({
+        target: window ? window() : undefined,
+    });
+
+    return <Slide appear={false} direction="down" in={!trigger1}>
         {cloneElement(children, {
                 elevation: trigger ? 5 : 0,
             })}

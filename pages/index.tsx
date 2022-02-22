@@ -3,6 +3,11 @@ import Head from 'next/head'
 import Hero from "../components/hero";
 import SectionButtons from "../components/section-buttons";
 import SectionInfoBoard from "../components/section-infoboard";
+import SectionDetail from "../components/section-detail";
+import SectionCalculator from "../components/section-calculator";
+import SectionCards from "../components/section-cards";
+import SectionUniswap from "../components/section-uniswap";
+import SectionHowToBuy from "../components/section-howtobuy";
 
 
 const Home: NextPage = () => {
@@ -16,6 +21,11 @@ const Home: NextPage = () => {
             <Hero/>
             <SectionButtons/>
             <SectionInfoBoard/>
+            <SectionDetail/>
+            <SectionCalculator/>
+            <SectionCards/>
+            <SectionUniswap/>
+            <SectionHowToBuy/>
         </>
     )
 }
