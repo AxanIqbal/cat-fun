@@ -1,4 +1,4 @@
-import {Toolbar, useScrollTrigger, AppBar as MuiAppBar, Typography, styled} from "@mui/material";
+import {Toolbar, useScrollTrigger, AppBar as MuiAppBar, Typography, styled, Slide} from "@mui/material";
 import {cloneElement, ReactElement} from "react";
 import Button from "./button";
 
@@ -34,9 +34,11 @@ function ElevationScroll(props: Props) {
         target: window ? window() : undefined,
     });
 
-    return cloneElement(children, {
-        elevation: trigger ? 5 : 0,
-    });
+    return <Slide appear={false} direction="down" in={!trigger}>
+        {cloneElement(children, {
+                elevation: trigger ? 5 : 0,
+            })}
+    </Slide>;
 }
 
 
@@ -48,7 +50,7 @@ function AppBar(props: {window?: () => Window;}) {
                     <Heading variant="h6" component="div">
                         DODGE FUN
                     </Heading>
-                    <Button style={{width: "17em"}}>Uniswap Link</Button>
+                    <Button variant={'outlined'} style={{width: "17em"}}>Uniswap Link</Button>
                 </Toolbar>
             </CustomAppBar>
         </ElevationScroll>
