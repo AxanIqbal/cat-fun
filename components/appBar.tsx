@@ -51,7 +51,7 @@ function AppBar(props: {window?: () => Window;}) {
         <ElevationScroll {...props}>
             <CustomAppBar position={"sticky"}>
                 <Toolbar>
-                    <Heading variant="h6" component="div">
+                    <Heading variant="h6">
                         DODGE FUN
                     </Heading>
                     <Button variant={'outlined'} style={{width: "17em"}}>Uniswap Link</Button>
