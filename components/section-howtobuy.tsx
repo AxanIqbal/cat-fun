@@ -73,7 +73,7 @@ function BuySteps(props: BuyStepsProps) {
 
     return (
         <MyStack spacing={1}>
-            <Image src={img} alt={heading} width={120} height={60} layout={'fixed'}/>
+            <Image src={img} alt={heading} width={120} height={60} />
             <Typography variant={"h6"} color={"#A15200FF"}>step {step}</Typography>
             <Typography fontWeight={'bold'} color={"#d06b00"}>{heading}</Typography>
             <MyTypo>{body}</MyTypo>

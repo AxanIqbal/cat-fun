@@ -14,8 +14,10 @@ const MyButton = styled(Button)`
 
 const MyCard = styled(Card)`
   background-color: darkslategrey;
+  margin-bottom: 1em;
   width: 20em;
   border-radius: 10px;
+  
 
   & > div {
     text-align: center;
@@ -36,7 +38,7 @@ function SectionUniswap() {
             <Stack sx={{width: "100%"}}>
                 <MyButton style={{width: "20em"}}>buy on uniswap</MyButton>
                 <Stack direction={"row"} justifyContent="space-evenly"
-                       alignItems="center" sx={{width: "100%"}}>
+                       alignItems="center" sx={{width: "100%"}} spacing={1}>
                     <MyCard elevation={5}>
                         <CardContent>
                             <Typography variant={"h5"}>Anti-Whale</Typography>
