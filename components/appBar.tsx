@@ -7,7 +7,7 @@ const Heading = styled(Typography)`
   flex-grow: 1;
 `
 const CustomAppBar = styled(MuiAppBar)`
-  background-color: rgba(147, 79, 16, 0.83);
+  background-color: rgba(161, 82, 0, 0.83);
   min-height: 5rem;
   display: flex;
   margin: auto;

@@ -23,9 +23,9 @@ function SectionButtons() {
                 <Grid item sm={12} md={6}>
                     <Container>
                         <Stack spacing={1}>
-                            <Typography>Missed Shiba AND Doge?!?!</Typography>
+                            <Typography variant={'h6'}>Missed Shiba AND Doge?!?!</Typography>
                             <Typography variant={"h3"} sx={{fontWeight: 'bold'}}>$SHIBDOGE</Typography>
-                            <Typography>The first community driven token created by Shiba & Dogecoin whales coming
+                            <Typography >The first community driven token created by Shiba & Dogecoin whales coming
                                 together for the greater good of both communities</Typography>
                             <Grid container spacing={2}>
                                 <Grid item xs={12} sm={6}>
