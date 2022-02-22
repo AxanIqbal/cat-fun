@@ -1,15 +1,20 @@
 import styled from "@emotion/styled";
 
-const Button = styled.button`
-  background-color: transparent;
+type ButtonProps = {
+    backColor?: string
+}
+
+const Button = styled.button<ButtonProps>`
+  background-color: ${props => props.backColor ? props.backColor : 'transparent'};
   text-decoration: none;
-  padding: 10px 40px;
+  padding: 10px 60px;
   color: black;
+  width: 100%;
   border-radius: 100px;
   border-color: darkslategrey;
   display: inline-block;
   
-  :hover {
+  &:hover {
     color: white;
     background-color: darkslategrey;
   }

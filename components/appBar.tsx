@@ -48,7 +48,7 @@ function AppBar(props: {window?: () => Window;}) {
                     <Heading variant="h6" component="div">
                         DODGE FUN
                     </Heading>
-                    <Button>Uniswap Link</Button>
+                    <Button style={{width: "17em"}}>Uniswap Link</Button>
                 </Toolbar>
             </CustomAppBar>
         </ElevationScroll>
