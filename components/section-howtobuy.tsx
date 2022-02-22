@@ -1,6 +1,6 @@
 import {Stack, styled, Typography} from "@mui/material";
 import Section from "./section";
-import Image from 'next/Image'
+import Image from 'next/image'
 import Buy1 from '../assets/buy1.webp'
 import Buy2 from '../assets/buy2.webp'
 import Buy3 from '../assets/buy3.webp'

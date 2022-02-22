@@ -1,6 +1,6 @@
 import Section from "./section";
 import {Stack, styled, Typography as MuiTypography} from "@mui/material";
-import Image from 'next/Image';
+import Image from 'next/image';
 import Stage0 from '../assets/Stage0.webp';
 import Stage1 from '../assets/Stage1.webp';
 import Stage2 from '../assets/Stage2.webp';

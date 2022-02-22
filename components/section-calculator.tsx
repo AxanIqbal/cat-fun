@@ -1,7 +1,7 @@
 import Section from "./section";
 import {Card, CardContent, Stack, styled, Typography as MuiTypography} from "@mui/material";
 import Button from "./button";
-import Image from 'next/Image';
+import Image from 'next/image';
 import SecCalc from '../assets/secCalc.png';
 
 const MySection = styled(Section)`
