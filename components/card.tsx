@@ -1,10 +1,21 @@
 import React from 'react';
-import {Card as MuiCard, CardContent, CardHeader, List, styled, Typography} from '@mui/material'
+import {
+    Card as MuiCard,
+    CardContent,
+    CardHeader,
+    List,
+    ListItem,
+    ListItemIcon,
+    ListItemText,
+    styled,
+    Typography
+} from '@mui/material'
+import {FiCheckCircle} from "react-icons/fi";
 
 const MyCard = styled(MuiCard)`
   background-color: rgba(219, 116, 26, 0.8);
   width: 320px;
-  height: 420px;
+  height: 500px;
   margin-bottom: 1em;
   transition: transform .3s;
   
@@ -38,8 +49,16 @@ function Card(props: Props) {
             <MyHeader title={title}/>
             <CardContent>
                 <List>
+
                 {features.map((value, index) => {
-                    return (<MyTypo key={index}>- {value}</MyTypo>)
+                    return (
+                        <ListItem key={index} disablePadding>
+                            <ListItemIcon>
+                                <FiCheckCircle size={20} color={'whitesmoke'}/>
+                            </ListItemIcon>
+                            <ListItemText primary={<MyTypo>{value}</MyTypo>}/>
+                        </ListItem>
+                    );
                 })}
                 </List>
             </CardContent>
