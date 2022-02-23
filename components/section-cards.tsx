@@ -4,10 +4,8 @@ import Card from "./card";
 
 const Typography = styled(MuiTypography)`
   color: whitesmoke;
-  font-size: 1.3rem;
-  font-weight: bolder;
-  text-align: center;
 `
+
 
 function SectionCards() {
     return (
@@ -17,7 +15,7 @@ function SectionCards() {
                 <Typography align={'center'}>We have a targeted roadmap inspired by the trajectory and series of events
                     that both Shiba Inu and Dogecoin have followed.<br/>Their combined marketcap today sits above $40
                     billion USD</Typography>
-                <Stack direction={"row"} justifyContent="space-evenly" alignItems="center" pt={5} spacing={1}>
+                <Stack direction={"row"} justifyContent="space-evenly" py={5} spacing={1} flexWrap={"wrap"} >
                     <Card
                         title={<Typography>JOKE<br/>(Development)</Typography>}
                         select={false}

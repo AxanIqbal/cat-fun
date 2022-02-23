@@ -2,22 +2,27 @@ import React from 'react';
 import {Card as MuiCard, CardContent, CardHeader, styled, Typography} from '@mui/material'
 
 const MyCard = styled(MuiCard)`
-  background-color: #db741a;
-  width: 250px;
-  height: 370px;
+  background-color: rgba(219, 116, 26, 0.8);
+  width: 320px;
+  height: 420px;
+  margin-bottom: 1em;
+  transition: transform .3s;
+  
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
 `
 const MyTypo = styled(Typography)`
   color: whitesmoke;
-  font-size: 0.9rem;
 `
 const MyHeader = styled(CardHeader)`
   color: whitesmoke;
   
-  //& > div > span {
-  //  font-size: 1.3rem;
+  & > div > span > p{
+    font-size: 1.6rem;
   //  font-weight: bolder;
-  //  text-align: center;
-  //}
+    text-align: center;
+  }
 `
 
 interface Props {
