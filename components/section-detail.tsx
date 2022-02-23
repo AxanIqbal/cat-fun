@@ -28,7 +28,7 @@ function SectionDetail() {
                 </Grid>
                 <Grid item xs={12} sm={6} sx={{margin: 'auto'}}>
                     <Container>
-                        <Image alt={'section image'} src={SectionImage} width={'600em'} height={"500em"}
+                        <Image alt={'section image'} src={SectionImage} width={'650em'} height={"500em"}
                                />
                     </Container>
                 </Grid>
