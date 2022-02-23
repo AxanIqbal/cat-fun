@@ -15,7 +15,7 @@ function SectionCards() {
                 <Typography align={'center'}>We have a targeted roadmap inspired by the trajectory and series of events
                     that both Shiba Inu and Dogecoin have followed.<br/>Their combined marketcap today sits above $40
                     billion USD</Typography>
-                <Stack direction={"row"} justifyContent="space-evenly" py={5} spacing={1} flexWrap={"wrap"} >
+                <Stack direction={{xs: 'column', sm: 'row'}} alignItems={{xs: 'center', sm: 'start'}} justifyContent="space-evenly" py={5} spacing={1} flexWrap={"wrap"} >
                     <Card
                         title={<Typography>JOKE<br/>(Development)</Typography>}
                         select={false}
