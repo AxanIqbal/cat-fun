@@ -23,7 +23,7 @@ function SectionHowToBuy() {
             <MyStack justifyItems="center" sx={{width: '100%'}}>
                 <MyTypo my={2} variant={'h3'}>How to buy</MyTypo>
                 <MyTypo fontWeight={'bold'}>Contract Address</MyTypo>
-                <Stack direction={'row'} justifyContent="space-evenly" my={3}>
+                <Stack direction={{ xs: 'column', sm: 'row' }} justifyContent="space-evenly" alignItems={{ xs: 'center', sm: 'start' }} my={3} spacing={1}>
                     <BuySteps img={Buy1}
                               body={`From The App Store or Google Play Store, for free. Or add the desktop browser extension on Google Chrome by going to metamask.io Follow their easy steps
 from their guide to set up a wallet.`}
