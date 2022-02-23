@@ -52,9 +52,9 @@ function AppBar(props: {window?: () => Window;}) {
             <CustomAppBar position={"sticky"}>
                 <Toolbar>
                     <Heading variant="h6">
-                        DODGE FUN
+                        DOGEFUN
                     </Heading>
-                    <Button variant={'outlined'} style={{width: "17em"}}>Uniswap Link</Button>
+                    <Button variant={'outlined'} style={{width: "20em"}}>PancakeSwap Link</Button>
                 </Toolbar>
             </CustomAppBar>
         </ElevationScroll>

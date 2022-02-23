@@ -6,7 +6,7 @@ import SectionImage from "../assets/IMG_0861_PNG.webp";
 import Section from "./section";
 
 const Typography = styled(MuiTypography)`
-  color: white;
+  color: whitesmoke;
 `
 
 const Container = styled(MuiContainer)`
@@ -23,22 +23,24 @@ function SectionButtons() {
                 <Grid item sm={12} md={6}>
                     <Container>
                         <Stack spacing={1}>
-                            <Typography variant={'h6'}>Missed Shiba AND Doge?!?!</Typography>
-                            <Typography variant={"h3"} sx={{fontWeight: 'bold'}}>$SHIBDOGE</Typography>
-                            <Typography >The first community driven token created by Shiba & Dogecoin whales coming
-                                together for the greater good of both communities</Typography>
+                            <Typography variant={'h6'}>Dogecoin with Mcdonald&apos;s, Elon Musk. What kind of sparks will the three produce?</Typography>
+                            <Typography variant={"h3"} sx={{fontWeight: 'bold'}}>$DOGEFUN</Typography>
+                            <Typography >ARE YOU READY TO DIE LAUGHING, BECAUSE WE GOING TO MCDONALD&apos;S, JOIN DOGEFUN COMMUNITY, HAVING FUN WHILE WE EAT BIGMAC MEAL</Typography>
                             <Grid container spacing={2}>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Uniswap</Button>
+                                    <Button variant={'outlined'}>PANCAKESWAP</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Etherscan</Button>
+                                    <Button variant={'outlined'}>DEXTOOLS</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Dextool</Button>
+                                    <Button variant={'outlined'}>BSCSCAN</Button>
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
-                                    <Button variant={'outlined'}>Cmc</Button>
+                                    <Button variant={'outlined'}>CMC</Button>
+                                </Grid>
+                                <Grid item xs={12} sm={6}>
+                                    <Button variant={'outlined'}>CG</Button>
                                 </Grid>
                             </Grid>
                         </Stack>

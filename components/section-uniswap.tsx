@@ -27,7 +27,7 @@ const MyCard = styled(Card)`
   }
 
   & > div > p {
-    color: white;
+    color: whitesmoke;
   }
 `
 
@@ -35,21 +35,19 @@ function SectionUniswap() {
     return (
         <MySection>
             <Stack sx={{width: "100%"}}>
-                <MyButton style={{width: "20em"}}>buy on uniswap</MyButton>
+                <MyButton style={{width: "22em"}}>BUY ON PANCAKESWAP</MyButton>
                 <Stack direction={{ xs: 'column', sm: 'row' }} justifyContent="space-evenly"
                        alignItems="center" sx={{width: "100%"}} spacing={1}>
                     <MyCard elevation={5}>
                         <CardContent>
                             <Typography variant={"h5"}>Anti-Whale</Typography>
-                            <Typography>Wallets are limited to 1% of the total available supply and still encourage
-                                buying as we attain larger market caps</Typography>
+                            <Typography>Wallets are limited to 1% of the total available supply and still encourage buying as we attain larger market caps</Typography>
                         </CardContent>
                     </MyCard>
                     <MyCard elevation={5}>
                         <CardContent>
                             <Typography variant={"h5"}>Auto-Deflationary</Typography>
-                            <Typography>$SHIBDOGE is an auto-deflationary token that reduces the supply with every buy
-                                and sell transaction. This increases value by decreasing supply over time.</Typography>
+                            <Typography>$DOGEFUN is an auto-deflationary token that reduces the supply with every buy and sell transaction. This increases value by decreasing supply over time.</Typography>
                         </CardContent>
                     </MyCard>
                     <MyCard elevation={5}>
@@ -59,7 +57,7 @@ function SectionUniswap() {
                         </CardContent>
                     </MyCard>
                 </Stack>
-                <MyButton style={{width: "20em"}}>buy on uniswap</MyButton>
+                <MyButton style={{width: "22em"}}>BUY ON PANCAKESWAP</MyButton>
             </Stack>
         </MySection>
     );

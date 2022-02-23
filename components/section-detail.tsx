@@ -5,7 +5,7 @@ import SectionImage from "../assets/IMG_0861_PNG.webp";
 import React from "react";
 
 const Typography = styled(MuiTypography)`
-  color: white;
+  color: whitesmoke;
   padding-bottom: 0.5em;
 `
 function SectionDetail() {
@@ -14,21 +14,16 @@ function SectionDetail() {
             <Grid container>
                 <Grid item xs={12} sm={6}>
                     <Container>
-                        <Typography variant={"h3"} >Bringing together two mortal enemies for the greater good</Typography>
+                        <Typography variant={"h3"} >WHY DOGEFUN, WHY MOONSHOT ?</Typography>
                         <Typography variant={"subtitle1"}>
-                            Two kingdoms, one purpose: To see the evolution of currency evolve from government controlled monopolies and give back the power to the people.
+                            Most projects are MOONSHOT but exaggerate as ECOSYSTEM. Meme projects are successful as moonshot with heavy marketing.
                             <br/>
                             <br/>
-                            One problem...
+                            We strongly believe that with the current hype of dogecoin with Mcdonald&apos;s, Elon Musk. This will certainly create extra hype for social algorithms.
                             <br/>
                             <br/>
-                            The only way that can happen is if the community comes together for the greater good of all mankind. That, at its core, is the mission of ShibaDoge - to ultimately merge the communities behind Shiba Inu and Dogecoin.
-                            <br/>
-                            <br/>
-                            The combined market cap of both currencies currently stands above $40 billion USD and represents more than 5 million token holders.
-                            <br/>
-                            <br/>
-                            Our short term goal is to merge 1% of that audience, creating value for 50,000+ holders and $400+ million in value. By focusing on the initial one percent we believe that we can bring more people together as the community embraces $SHIBDOGE.</Typography>
+                            However as the community and project grows. We have plans to develop a unique ecosystem that will benefit many &quot;Doge/Shiba/Floki&quot; related projects on the platform where their holders will be able to benefit from $DFUN Ecosystem.
+                        </Typography>
                     </Container>
                 </Grid>
                 <Grid item xs={12} sm={6} sx={{margin: 'auto'}}>

@@ -1,5 +1,5 @@
 import Section from "./section";
-import {Card, CardContent, Stack, styled, Typography as MuiTypography} from "@mui/material";
+import {styled, Typography as MuiTypography} from "@mui/material";
 import Button from "./button";
 import Image from 'next/image';
 import SecCalc from '../assets/secCalc.png';
@@ -9,12 +9,13 @@ const MySection = styled(Section)`
   justify-content: center;
 `
 const Typography = styled(MuiTypography)`
-  color: white;
+  color: whitesmoke;
 `
 
 const MyButton = styled(Button)`
-    color: white;
+  color: whitesmoke;
 `
+
 function SectionCalculator() {
     return (
         <MySection>
