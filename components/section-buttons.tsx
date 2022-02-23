@@ -2,7 +2,7 @@ import React from 'react';
 import {Container as MuiContainer, Grid, Stack, styled, Typography as MuiTypography} from "@mui/material";
 import Button from "./button";
 import Image from "next/image";
-import SectionImage from "../assets/IMG_0861_PNG.webp";
+import SectionImage from "../assets/TRANSPARANT 2.png";
 import Section from "./section";
 
 const Typography = styled(MuiTypography)`
@@ -48,7 +48,7 @@ function SectionButtons() {
                 </Grid>
                 <Grid item sm={12} md={6} sx={{margin: 'auto'}}>
                     <Container>
-                        <Image alt={'section image'} src={SectionImage} width={'300em'} height={"300em"}
+                        <Image alt={'section image'} src={SectionImage} width={'350em'} height={"300em"}
                                layout={'fixed'}/>
                     </Container>
                 </Grid>

@@ -1,7 +1,7 @@
 import Section from "./section";
 import {Container, Grid, styled, Typography as MuiTypography} from "@mui/material";
 import Image from "next/image";
-import SectionImage from "../assets/IMG_0861_PNG.webp";
+import SectionImage from "../assets/TRANSPARANT 2.png";
 import React from "react";
 
 const Typography = styled(MuiTypography)`
@@ -28,7 +28,7 @@ function SectionDetail() {
                 </Grid>
                 <Grid item xs={12} sm={6} sx={{margin: 'auto'}}>
                     <Container>
-                        <Image alt={'section image'} src={SectionImage} width={'500em'} height={"500em"}
+                        <Image alt={'section image'} src={SectionImage} width={'600em'} height={"500em"}
                                />
                     </Container>
                 </Grid>
