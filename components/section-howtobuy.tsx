@@ -2,9 +2,9 @@ import {Stack, styled, Typography} from "@mui/material";
 import Section from "./section";
 import Image from 'next/image'
 import Buy1 from '../assets/buy1.webp'
-import Buy2 from '../assets/buy2.webp'
-import Buy3 from '../assets/buy3.webp'
-import Buy4 from '../assets/buy4.webp'
+import Buy2 from '../assets/buy2.png'
+import Buy3 from '../assets/buy3.png'
+import Buy4 from '../assets/buy4.png'
 
 const MySection = styled(Section)`
   background-color: darkslategrey;
@@ -76,7 +76,7 @@ function BuySteps(props: BuyStepsProps) {
 
     return (
         <MyStack spacing={1}>
-            <Image src={img} alt={heading} width={120} height={60}/>
+            <Image src={img} alt={heading} width={100} height={70}/>
             <Typography variant={"h6"} color={"#A15200FF"}>step {step}</Typography>
             <Typography fontWeight={'bold'} color={"#d06b00"}>{heading}</Typography>
             <MyTypo>{body}</MyTypo>
