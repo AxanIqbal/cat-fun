@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card as MuiCard, CardContent, CardHeader, styled, Typography} from '@mui/material'
+import {Card as MuiCard, CardContent, CardHeader, List, styled, Typography} from '@mui/material'
 
 const MyCard = styled(MuiCard)`
   background-color: rgba(219, 116, 26, 0.8);
@@ -37,9 +37,11 @@ function Card(props: Props) {
         <MyCard>
             <MyHeader title={title}/>
             <CardContent>
+                <List>
                 {features.map((value, index) => {
                     return (<MyTypo key={index}>- {value}</MyTypo>)
                 })}
+                </List>
             </CardContent>
         </MyCard>
     );

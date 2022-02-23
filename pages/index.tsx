@@ -16,7 +16,7 @@ const Home: NextPage = () => {
             <Head>
                 <title>DOGEFUN</title>
                 <meta name="description" content="Crypto site"/>
-                <link rel="icon" href="/faviacon.ico"/>
+                <link rel="icon" href="/favicon.ico"/>
             </Head>
             <Hero/>
             <SectionButtons/>
