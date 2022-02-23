@@ -14,10 +14,11 @@ import {FiCheckCircle} from "react-icons/fi";
 
 const MyCard = styled(MuiCard)`
   background-color: rgba(219, 116, 26, 0.8);
-  width: 320px;
+  width: 350px;
   height: 500px;
   margin-bottom: 1em;
   transition: transform .3s;
+  flex-shrink: 0;
   
   &:hover {
     transform: translateY(-1.5rem) scale(1.03);

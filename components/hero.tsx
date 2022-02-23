@@ -24,6 +24,7 @@ const MyButton = styled(Button)`
   color: whitesmoke;
   font-size: 2rem;
   width: 50%;
+  height: 2.5em;
   
   &:hover {
     background-color: #5363FF;

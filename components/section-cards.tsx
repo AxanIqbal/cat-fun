@@ -6,16 +6,22 @@ const Typography = styled(MuiTypography)`
   color: whitesmoke;
 `
 
+const MyStack = styled(Stack)`
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+`
 
 function SectionCards() {
     return (
         <Section>
             <Stack sx={{width: '100%'}}>
-                <Typography variant={"h2"} align={'center'}>Agenda for the coming months</Typography>
-                <Typography align={'center'}>We have a targeted roadmap inspired by the trajectory and series of events
-                    that both Shiba Inu and Dogecoin have followed.<br/>Their combined marketcap today sits above $40
-                    billion USD</Typography>
-                <Stack direction={{xs: 'column', sm: 'row'}} alignItems={{xs: 'center', sm: 'start'}} justifyContent="space-evenly" py={5} spacing={1} flexWrap={"wrap"} >
+                <Typography variant={"h2"} align={'center'}>FUNMAP</Typography>
+                <Typography align={'center'}>WHEN MOON? WHEN LAMBO? WHEN BIGMAC?</Typography>
+                <MyStack direction={'row'} py={5} spacing={1}>
                     <Card
                         title={<Typography>JOKE<br/>(Development)</Typography>}
                         select={false}
@@ -69,7 +75,7 @@ function SectionCards() {
                     {/*<Image src={Stage1} alt={"Stage1"} width={300} height={450}/>*/}
                     {/*<Image src={Stage2} alt={"Stage2"} width={300} height={400}/>*/}
                     {/*<Image src={Stage3} alt={"Stage3"} width={300} height={400}/>*/}
-                </Stack>
+                </MyStack>
             </Stack>
         </Section>
     );

@@ -22,7 +22,7 @@ const Home: NextPage = () => {
             <SectionButtons/>
             <SectionInfoBoard/>
             <SectionDetail/>
-            <SectionCalculator/>
+            {/*<SectionCalculator/>*/}
             <SectionCards/>
             <SectionUniswap/>
             <SectionHowToBuy/>
