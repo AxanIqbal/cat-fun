@@ -47,8 +47,8 @@ function SectionHowToBuy() {
                     />
                     <BuySteps
                         img={Buy4}
-                        body={`Go to pancakeswap.finance via a desktop browser or inside your Metamask wallet. Click the cog button and change the “Slippage" amount to 12-15%. Add your desired BNB amount you’d like to swap, once you’re happy click the “Swap” button to finalize the trade.`}
-                        heading={`Swap your ETH for $SHIBDOGE`}
+                        body={`Go to pancakeswap.finance via a desktop browser or inside your Metamask wallet. Click the cog button and change the “Slippage" amount to 11-13%. Add your desired BNB amount you’d like to swap, once you’re happy click the “Swap” button to finalize the trade.`}
+                        heading={`Swap your BNB for $DFUN`}
                         step={4}
                     />
                 </Stack>
