@@ -1,8 +1,8 @@
 import {
     AppBar as MuiAppBar,
     Box,
-    Container,
-    Drawer,
+    Container, Divider,
+    Drawer, IconButton,
     Slide,
     Stack,
     styled,
@@ -14,6 +14,7 @@ import {cloneElement, ReactElement, useState} from "react";
 import Button from "./button";
 import {Divide as Hamburger} from 'hamburger-react'
 import {useRouter} from "next/router";
+import {FaTelegram, FaTwitter} from "react-icons/fa";
 
 const Heading = styled(Typography)`
   flex-grow: 1;
@@ -107,20 +108,33 @@ function AppBar(props: { window?: () => Window; }) {
                                     width: '80%'
                                 }
                             }}>
-                                <DrawerStack spacing={2}>
-                                    <MyButton variant={'outlined'} style={{width: "15em"}}>PancakeSwap Link</MyButton>
-                                    <MyButton variant={'outlined'} style={{width: "15em"}} onClick={event => {
-                                        event.preventDefault()
-                                        router.push('WHITEPAPER.pdf')
-                                    }}>WHITEPAPER</MyButton>
+                                <DrawerStack spacing={4}>
+                                    <Stack spacing={2}>
+                                        <MyButton variant={'outlined'} style={{width: "15em"}}>PancakeSwap Link</MyButton>
+                                        <MyButton variant={'outlined'} style={{width: "15em"}} onClick={async event => {
+                                            event.preventDefault()
+                                            await router.push('WHITEPAPER.pdf')
+                                        }}>WHITEPAPER</MyButton>
+                                    </Stack>
+                                    <Divider color={'darkslategrey'}/>
+                                    <Stack spacing={2}>
+                                        <MyButton variant={'outlined'} href={'https://twitter.com/dogefuncoin'} style={{width: "15em", display: 'flex'}} endIcon={<FaTwitter color={'darkslategrey'}/>}>Twitter</MyButton>
+                                        <MyButton variant={'outlined'} href={'https://t.me/DOGEFUNOfficial'} style={{width: "15em", display: 'flex'}} endIcon={<FaTelegram color={'darkslategrey'}/>}>Telegram</MyButton>
+                                    </Stack>
                                 </DrawerStack>
                             </MyDrawer>
                         </Box>
                         <Stack direction={'row'} spacing={1} sx={{display: {xs: 'none', sm: 'flex'}}}>
+                            <IconButton href={'https://twitter.com/dogefuncoin'}>
+                                <FaTwitter color={'darkslategrey'}/>
+                            </IconButton>
+                            <IconButton href={'https://t.me/DOGEFUNOfficial'}>
+                                <FaTelegram color={'darkslategrey'}/>
+                            </IconButton>
                             <MyButton variant={'outlined'} style={{width: "15em"}}>PancakeSwap Link</MyButton>
-                            <MyButton variant={'outlined'} style={{width: "15em"}} onClick={event => {
+                            <MyButton variant={'outlined'} style={{width: "15em"}} onClick={async event => {
                                 event.preventDefault()
-                                router.push('WHITEPAPER.pdf')
+                                await router.push('WHITEPAPER.pdf')
                             }}>WHITEPAPER</MyButton>
                         </Stack>
                     </MyToolbar>
