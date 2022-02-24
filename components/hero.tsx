@@ -20,18 +20,19 @@ const Section = styled.section`
 const MyButton = styled(Button)`
   position: absolute;
   bottom: 1%;
-  right: -2%;
+  right: 0;
   z-index: 10;
   color: whitesmoke;
   font-size: 2rem;
-  width: 45%;
+  width: 40%;
   height: 2.4em;
   transition: transform .3s;
-
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  
   @media (max-width: 800px) {
     padding: 0;
     font-size: 1.2rem;
-    right: -3%;
   }
   
   &:hover {
