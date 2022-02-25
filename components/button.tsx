@@ -1,7 +1,7 @@
 import {styled, Button as MuiButton} from "@mui/material";
 
 
-type ButtonProps = {
+interface ButtonProps  {
     backColor?: string
 }
 
@@ -15,7 +15,7 @@ const Button = styled(MuiButton)<ButtonProps>`
   border-color: darkslategrey;
   display: inline-block;
   transition-duration: 300ms;
-  
+
   &:hover {
     color: whitesmoke;
     background-color: darkslategrey;

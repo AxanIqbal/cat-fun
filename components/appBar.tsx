@@ -95,7 +95,7 @@ function AppBar(props: { window?: () => Window; }) {
 
     return (
         <ElevationScroll {...props}>
-            <CustomAppBar position={"sticky"}>
+            <CustomAppBar position={"sticky"} color={'primary'}>
                 <Container maxWidth={"xl"}>
                     <MyToolbar disableGutters>
                         <Heading variant="h6">

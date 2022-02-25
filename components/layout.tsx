@@ -9,10 +9,11 @@ const MainDiv = styled.div`
   padding: 0;
   box-sizing: border-box;
 `
-function Layout({children}: {children: ReactElement}) {
+
+function Layout({children}: { children: ReactElement }) {
     return (
         <MainDiv>
-            <AppBar />
+            <AppBar/>
             <main>{children}</main>
         </MainDiv>
     );
