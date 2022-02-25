@@ -5,6 +5,7 @@ import Buy1 from '../assets/buy1.webp'
 import Buy2 from '../assets/buy2.png'
 import Buy3 from '../assets/buy3.png'
 import Buy4 from '../assets/buy4.png'
+import BuyImage from "../assets/howtobuy.jpeg";
 
 const MySection = styled(Section)`
   background-color: darkslategrey;
@@ -19,6 +20,7 @@ const MyStack = styled(Stack)`
 
 function SectionHowToBuy() {
     return (
+        <>
         <MySection>
             <MyStack justifyItems="center" sx={{width: '100%'}}>
                 <MyTypo my={2} variant={'h3'}>How to buy</MyTypo>
@@ -54,6 +56,8 @@ function SectionHowToBuy() {
                 </Stack>
             </MyStack>
         </MySection>
+            <Image src={BuyImage} alt={'how to buy'} layout={"responsive"}/>
+        </>
     );
 }
 

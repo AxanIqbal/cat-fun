@@ -1,11 +1,13 @@
 import {
     AppBar as MuiAppBar,
     Box,
-    Container, Divider,
-    Drawer, IconButton,
+    Container,
+    Divider,
+    IconButton,
     Slide,
     Stack,
     styled,
+    SwipeableDrawer,
     Toolbar,
     Typography,
     useScrollTrigger
@@ -20,7 +22,8 @@ const Heading = styled(Typography)`
   flex-grow: 1;
 `
 const CustomAppBar = styled(MuiAppBar)`
-  background-color: rgb(184, 97, 7);
+  //background-color: rgb(184, 97, 7);
+  background-image: linear-gradient(to right bottom, rgb(220, 124, 39), rgb(182, 85, 0));
   display: flex;
   margin: auto;
   justify-items: center;
@@ -40,7 +43,7 @@ const MyToolbar = styled(Toolbar)(({theme}) => ({
     },
 }));
 
-const MyDrawer = styled(Drawer)`
+const MyDrawer = styled(SwipeableDrawer)`
 
 
 `
@@ -101,16 +104,20 @@ function AppBar(props: { window?: () => Window; }) {
                         <Box sx={{display: {xs: 'flex', sm: 'none'}}}>
                             <Hamburger color={"whitesmoke"} toggled={drawer}
                                        onToggle={() => setDrawer(prevState => !prevState)}/>
-                            <MyDrawer anchor={'right'} open={drawer} onClose={() => setDrawer(false)} PaperProps={{
+                            <MyDrawer anchor={'right'} open={drawer}
+                                      onClose={() => setDrawer(false)} PaperProps={{
                                 sx: {
-                                    backgroundColor: 'rgba(184, 97, 7,0.8)',
+                                    // backgroundColor: 'rgba(184, 97, 7,0.8)',
+                                    backgroundImage: 'linear-gradient(to right bottom, rgba(220, 124, 39, 0.8), rgba(182, 85, 0, 0.90))',
                                     // justifyContent: 'center',
                                     width: '80%'
                                 }
-                            }}>
+                            }}
+                                      onOpen={() => setDrawer(true)}>
                                 <DrawerStack spacing={4}>
                                     <Stack spacing={2}>
-                                        <MyButton variant={'outlined'} style={{width: "15em"}}>PancakeSwap Link</MyButton>
+                                        <MyButton variant={'outlined'} style={{width: "15em"}}>PancakeSwap
+                                            Link</MyButton>
                                         <MyButton variant={'outlined'} style={{width: "15em"}} onClick={async event => {
                                             event.preventDefault()
                                             await router.push('WHITEPAPER.pdf')
@@ -118,8 +125,12 @@ function AppBar(props: { window?: () => Window; }) {
                                     </Stack>
                                     <Divider color={'darkslategrey'}/>
                                     <Stack spacing={2}>
-                                        <MyButton variant={'outlined'} href={'https://twitter.com/dogefuncoin'} style={{width: "15em", display: 'flex'}} endIcon={<FaTwitter color={'darkslategrey'}/>}>Twitter</MyButton>
-                                        <MyButton variant={'outlined'} href={'https://t.me/DOGEFUNOfficial'} style={{width: "15em", display: 'flex'}} endIcon={<FaTelegram color={'darkslategrey'}/>}>Telegram</MyButton>
+                                        <MyButton variant={'outlined'} href={'https://twitter.com/dogefuncoin'}
+                                                  style={{width: "15em", display: 'flex'}}
+                                                  endIcon={<FaTwitter color={'darkslategrey'}/>}>Twitter</MyButton>
+                                        <MyButton variant={'outlined'} href={'https://t.me/DOGEFUNOfficial'}
+                                                  style={{width: "15em", display: 'flex'}}
+                                                  endIcon={<FaTelegram color={'darkslategrey'}/>}>Telegram</MyButton>
                                     </Stack>
                                 </DrawerStack>
                             </MyDrawer>

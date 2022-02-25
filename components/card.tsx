@@ -19,7 +19,7 @@ const MyCard = styled(MuiCard)`
   margin-bottom: 1em;
   transition: transform .3s;
   flex-shrink: 0;
-  
+
   &:hover {
     transform: translateY(-1.5rem) scale(1.03);
   }
