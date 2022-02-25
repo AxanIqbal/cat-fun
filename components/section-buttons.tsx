@@ -48,7 +48,7 @@ function SectionButtons() {
                 </Grid>
                 <Grid item sm={12} md={6} sx={{margin: 'auto'}}>
                     <Container>
-                        <Image alt={'section image'} src={SectionImage} width={'400em'} height={"300em"}
+                        <Image alt={'section image'} src={SectionImage} width={'300em'} height={"250em"}
                                />
                     </Container>
                 </Grid>
