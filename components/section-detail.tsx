@@ -21,12 +21,12 @@ function SectionDetail() {
                             moonshot with heavy marketing.
                             <br/>
                             <br/>
-                            We strongly believe that with the current hype of dogecoin with Mcdonald&apos;s, Elon Musk.
+                            We strongly believe that with the current hype of catcoin with Mcdonald&apos;s, Elon Musk.
                             This will certainly create extra hype for social algorithms.
                             <br/>
                             <br/>
                             However as the community and project grows. We have plans to develop a unique ecosystem that
-                            will benefit many &quot;Doge/Shiba/Floki&quot; related projects on the platform where their
+                            will benefit many &quot;Cat/Shiba/Floki&quot; related projects on the platform where their
                             holders will be able to benefit from $DFUN Ecosystem.
                         </Typography>
                     </Container>

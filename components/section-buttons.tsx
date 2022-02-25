@@ -23,7 +23,7 @@ function SectionButtons() {
                 <Grid item sm={12} md={6}>
                     <Container>
                         <Stack spacing={1}>
-                            <Typography variant={'h6'}>Dogecoin with Mcdonald&apos;s, Elon Musk. What kind of sparks will the three produce?</Typography>
+                            <Typography variant={'h6'}>Catcoin with Mcdonald&apos;s, Elon Musk. What kind of sparks will the three produce?</Typography>
                             <Typography variant={"h3"} sx={{fontWeight: 'bold'}}>$CATFUN</Typography>
                             <Typography >ARE YOU READY TO DIE LAUGHING, BECAUSE WE GOING TO MCDONALD&apos;S, JOIN CATFUN COMMUNITY, HAVING FUN WHILE WE EAT BIGMAC MEAL</Typography>
                             <Grid container spacing={2}>
