@@ -14,7 +14,7 @@ function SectionDetail() {
             <Grid container>
                 <Grid item xs={12} sm={6}>
                     <Container>
-                        <Typography variant={"h3"} >WHY DOGEFUN, WHY MOONSHOT ?</Typography>
+                        <Typography variant={"h3"} >WHY CATFUN, WHY MOONSHOT ?</Typography>
                         <Typography variant={"subtitle1"}>
                             Most projects are MOONSHOT but exaggerate as ECOSYSTEM. Meme projects are successful as moonshot with heavy marketing.
                             <br/>

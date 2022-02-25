@@ -99,7 +99,7 @@ function AppBar(props: { window?: () => Window; }) {
                 <Container maxWidth={"xl"}>
                     <MyToolbar disableGutters>
                         <Heading variant="h6">
-                            DOGEFUN
+                            CATFUN
                         </Heading>
                         <Box sx={{display: {xs: 'flex', sm: 'none'}}}>
                             <Hamburger color={"whitesmoke"} toggled={drawer}

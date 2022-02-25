@@ -47,7 +47,7 @@ function SectionUniswap() {
                     <MyCard elevation={5}>
                         <CardContent>
                             <Typography variant={"h5"}>Auto-Deflationary</Typography>
-                            <Typography>$DOGEFUN is an auto-deflationary token that reduces the supply with every buy and sell transaction. This increases value by decreasing supply over time.</Typography>
+                            <Typography>$CATFUN is an auto-deflationary token that reduces the supply with every buy and sell transaction. This increases value by decreasing supply over time.</Typography>
                         </CardContent>
                     </MyCard>
                     <MyCard elevation={5}>
