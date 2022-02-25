@@ -56,7 +56,7 @@ function SectionHowToBuy() {
                 </Stack>
             </MyStack>
         </MySection>
-            <Image src={BuyImage} alt={'how to buy'} layout={"responsive"}/>
+            {/*<Image src={BuyImage} alt={'how to buy'} layout={"responsive"}/>*/}
         </>
     );
 }

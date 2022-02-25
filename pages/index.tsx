@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     return (
         <>
             <Head>
-                <title>DOGEFUN</title>
+                <title>CATFUN</title>
                 <meta name="description" content="Crypto site"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>

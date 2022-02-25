@@ -23,9 +23,9 @@ function SectionButtons() {
                 <Grid item sm={12} md={6}>
                     <Container>
                         <Stack spacing={1}>
-                            <Typography variant={'h6'}>Dogecoin with Mcdonald&apos;s, Elon Musk. What kind of sparks will the three produce?</Typography>
-                            <Typography variant={"h3"} sx={{fontWeight: 'bold'}}>$DOGEFUN</Typography>
-                            <Typography >ARE YOU READY TO DIE LAUGHING, BECAUSE WE GOING TO MCDONALD&apos;S, JOIN DOGEFUN COMMUNITY, HAVING FUN WHILE WE EAT BIGMAC MEAL</Typography>
+                            <Typography variant={'h6'}>Catcoin with Mcdonald&apos;s, Elon Musk. What kind of sparks will the three produce?</Typography>
+                            <Typography variant={"h3"} sx={{fontWeight: 'bold'}}>$CATFUN</Typography>
+                            <Typography >ARE YOU READY TO DIE LAUGHING, BECAUSE WE GOING TO MCDONALD&apos;S, JOIN CATFUN COMMUNITY, HAVING FUN WHILE WE EAT BIGMAC MEAL</Typography>
                             <Grid container spacing={2}>
                                 <Grid item xs={12} sm={6}>
                                     <Button variant={'outlined'}>PANCAKESWAP</Button>
@@ -48,7 +48,7 @@ function SectionButtons() {
                 </Grid>
                 <Grid item sm={12} md={6} sx={{margin: 'auto'}}>
                     <Container>
-                        <Image alt={'section image'} src={SectionImage} width={'400em'} height={"300em"}
+                        <Image alt={'section image'} src={SectionImage} width={'300em'} height={"250em"}
                                />
                     </Container>
                 </Grid>

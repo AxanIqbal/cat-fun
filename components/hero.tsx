@@ -6,7 +6,6 @@ import Button from "./button";
 
 const HeroImageStyled = styled(Image)`
   background-size: cover;
-
 `
 
 const Section = styled.section`
